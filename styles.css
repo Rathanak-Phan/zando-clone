@@ -222,23 +222,23 @@ swiper-slide img {
   opacity: 0.4;
 }
 
-.slide-content{
+.slide-content {
   position: absolute;
   line-height: 110px;
 }
 
-.slide-content p{
+.slide-content p {
   font-size: 70px;
   color: white;
 }
 
-.slide-content .dis{
+.slide-content .dis {
   font-size: 200px;
   color: white;
   font-weight: 700;
 }
 
-.btn-shop{
+.btn-shop {
   height: 150px;
   display: flex;
   gap: 20px;
@@ -246,7 +246,7 @@ swiper-slide img {
   justify-content: center;
 }
 
-.btn-shop button{
+.btn-shop button {
   padding: 15px 40px;
   background: none;
   color: white;
@@ -255,35 +255,128 @@ swiper-slide img {
   box-shadow: 0px 0px 10px rgb(255, 255, 255);
 }
 
-.btn-shop button:hover{
-  scale: calc(105%);
-  box-shadow: 0px 0px 0px;
+.btn-shop button:hover {
+  transform: translateY(-10px);
+  transition: 0.5s ease;
 }
 
-.logo-container{
+.logo-container {
   width: 1330px;
   display: flex;
   justify-content: space-between;
 }
 
-.logo-container img{
+.logo-container img {
   width: 150px;
 }
 
-.hero-section1{
+.hero-section1 {
   width: 1330px;
   height: 580px;
   display: flex;
   justify-content: space-between;
 }
 
-.hero-section1 .box1{
+.hero-section1 .box1 {
   width: 32%;
   height: 100%;
 }
 
-.box1 img{
+.box1 img {
   width: 100%;
 }
 
+.hero-section2 {
+  width: 1330px;
+  height: 640px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
 
+.hero-section2 .box2 {
+  width: 49%;
+}
+
+.box2 img {
+  width: 100%;
+  height: 100%;
+}
+
+.black-section{
+  width: 1330px;
+  padding-top: 80px;
+}
+
+.black-section div {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.black-section div h2 {
+  font-size: 40px;
+}
+
+.black-section div a{
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+}
+
+.black-container {
+  width: 100%;
+  height: 525px;
+}
+
+.black-container .box3{
+  width: 24%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  position: relative;
+}
+
+.black-container .box3 img{
+  width: 100%;
+  height: 80%;
+  top: 0;
+}
+
+.box3 .title{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.box3 .title .price{
+  display: flex;
+  gap: 10px;
+}
+
+.box3 .des{
+  width: 100%;
+}
+
+.box3 p{
+  text-align: start;
+}
+
+.color{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.dis1{
+  position: absolute;
+  top: 0px;
+  left: 15px;
+  padding: 5px 10px;
+  border-radius: 2px;
+  background-color: red;
+  color: white;
+}
