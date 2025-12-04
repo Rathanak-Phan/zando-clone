@@ -393,6 +393,7 @@ swiper-slide img {
 
 .footer{
   width: 1330px;
+  height: auto;
   padding-top: 100px;
 }
 
@@ -456,3 +457,5 @@ swiper-slide img {
   justify-content: end;
   align-items: center;
 }
+
+

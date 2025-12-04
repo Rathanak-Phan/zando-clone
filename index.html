@@ -4,12 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>zando</title>
+    <link rel="icon" type="image" href="assets/slide1.png">
     <link rel="stylesheet" href="styles.css" />
     <!-- font  -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
     />
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </head>
   <body>
     <header class="header">
@@ -349,7 +353,7 @@
           </swiper-slide>
         </swiper-container>
       </section>
-      <section class="logo-container">
+      <section data-aos="fade-up" data-aos-duration="1000" class="logo-container">
         <img src="assets/logo/image1.png" alt="" />
         <img src="assets/logo/image2.png" alt="" />
         <img src="assets/logo/image3.png" alt="" />
@@ -359,19 +363,19 @@
         <img src="assets/logo/image7.png" alt="" />
       </section>
       <section class="hero-section1">
-        <div class="box1">
+        <div data-aos="zoom-in" data-aos-duration="2000" class="box1">
           <img
             src="https://zandokh.com/image/catalog/banner/2025/ZANDO/Category%20lifestyle,%20sportlife,%20smartcasual/Oct/lifestify.jpg"
             alt=""
           />
         </div>
-        <div class="box1">
+        <div data-aos="zoom-in" data-aos-duration="2000" class="box1">
           <img
             src="https://zandokh.com/image/catalog/banner/2025/ZANDO/Category%20lifestyle,%20sportlife,%20smartcasual/Oct/SportLife.jpg"
             alt=""
           />
         </div>
-        <div class="box1">
+        <div data-aos="zoom-in" data-aos-duration="2000" class="box1">
           <img
             src="https://zandokh.com/image/catalog/banner/2025/ZANDO/Category%20lifestyle,%20sportlife,%20smartcasual/Oct/Smart%20Casual-1.jpg"
             alt=""
@@ -915,7 +919,6 @@
               <li><i class="fa-brands fa-telegram"></i> Telegram</li>
             </ul>
           </div>
-          
         </div>
       </div>
       <div class="second">
@@ -926,5 +929,8 @@
       </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
